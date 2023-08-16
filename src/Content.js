@@ -46,39 +46,39 @@ export default function Content() {
   return (
     <section className="h-screen flex">
       <div
-        className={`w-1/2 p-4 ${isLeftOpen ? "bg-gray-300" : "bg-gray-200"}`}
+        className={`w-1/2 p-4 ${isLeftOpen ? "bg-night" : "bg-jet"}`}
         onClick={handleLeftClick}
       >
         {/* Left half content */}
       </div>
       <div
-        className={`w-1/2 p-4 ${isRightOpen ? "bg-gray-300" : "bg-gray-200"}`}
+        className={`w-1/2 p-4 ${isRightOpen ? "bg-jet" : "bg-night"}`}
         onClick={handleRightClick}
       >
         {/* Right half content */}
       </div>
       {isLeftOpen && (
-        <div className="fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-50 flex items-center justify-center">
+        <div className="fixed top-0 left-0 w-screen h-screen bg-jet bg-opacity-50 flex items-center justify-center">
           <div className="relative">
             {/* Fullscreen lightbox content for the left half */}
             <button
-              className="absolute top-0 right-0 p-2 text-white"
+              className="fixed top-24 right-24 p-6 text-snow border border-solid border-snow rounded"
               onClick={handleClose}
             >
-              x
+              X
             </button>
           </div>
         </div>
       )}
       {isRightOpen && (
-        <div className="fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-50 flex items-center justify-center">
+        <div className="fixed top-0 left-0 w-screen h-screen bg-jet bg-opacity-50 flex items-center justify-center">
           <div className="relative">
             {/* Fullscreen lightbox content for the left half */}
             <button
-              className="absolute top-0 right-0 p-2 text-white"
+              className="fixed top-24 right-24 p-6 text-snow border border-solid border-snow rounded"
               onClick={handleClose}
             >
-              x
+              X
             </button>
           </div>
         </div>
