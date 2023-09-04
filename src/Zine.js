@@ -6,99 +6,99 @@ function ZineComponent() {
     const zineItems = [
       {
         image: "../ZineItems/IMG_0449.jpg",
-        description: "close-up front-three-quarters of the w208",
+        description: "",
       },
       {
         image: "../ZineItems/IMG_0451.jpg",
-        description: "the eye of the angel",
+        description: "",
       },
       {
         image: "../ZineItems/IMG_0452.jpg",
-        description: "the oldtimer",
+        description: "",
       },
       {
         image: "../ZineItems/IMG_0456.jpg",
-        description: "the impostor",
+        description: "",
       },
       {
         image: "../ZineItems/IMG_0457.jpg",
-        description: "the bloody 'martin",
+        description: "",
       },
       {
         image: "../ZineItems/IMG_0460.jpg",
-        description: "the future classic american",
+        description: "",
       },
       {
         image: "../ZineItems/IMG_0463.jpg",
-        description: "close-up rear-three-quarters of the w208",
+        description: "",
       },
       {
         image: "../ZineItems/IMG_0465.jpg",
-        description: "bavarian racing green",
+        description: "",
       },
       {
         image: "../ZineItems/IMG_0466.jpg",
-        description: "the dream catcher in the rye",
+        description: "",
       },
       {
         image: "../ZineItems/IMG_0467.jpg",
-        description: "skies' reflection",
+        description: "",
       },
       {
         image: "../ZineItems/IMG_0468.jpg",
-        description: "the rings of the lord",
+        description: "",
       },
       {
         image: "../ZineItems/IMG_0469.jpg",
-        description: "the stare of death",
+        description: "",
       },
       {
         image: "../ZineItems/IMG_0470.jpg",
-        description: "the fish face",
+        description: "",
       },
       {
         image: "../ZineItems/IMG_0471.jpg",
-        description: "the menace",
+        description: "",
       },
       {
         image: "../ZineItems/IMG_0472.jpg",
-        description: "the cute one",
+        description: "",
       },
       {
         image: "../ZineItems/IMG_0474.jpg",
-        description: "the four-eyed pirate",
+        description: "",
       },
       {
         image: "../ZineItems/IMG_0477.jpg",
-        description: "whipped cream",
+        description: "",
       },
       {
         image: "../ZineItems/IMG_0478.jpg",
-        description: "the flakes",
+        description: "",
       },
       {
         image: "../ZineItems/IMG_0479.jpg",
-        description: "transverse",
+        description: "",
       },
       {
         image: "../ZineItems/IMG_0480.jpg",
-        description: "the indestructible",
+        description: "",
       },
       {
         image: "../ZineItems/IMG_0481.jpg",
-        description: "the low one",
+        description: "",
       },
       {
         image: "../ZineItems/IMG_0482.jpg",
-        description: "the jap's heart",
+        description: "",
       },
       {
         image: "../ZineItems/IMG_0483.jpg",
-        description: "the jap long way from home",
+        description: "",
       },
       {
         image: "../ZineItems/IMG_0484.jpg",
-        description: "the modern jap",
+        description: "",
       },
     ];
 
@@ -110,8 +110,8 @@ function ZineComponent() {
             alt={`Image ${index + 1}`}
             className="object-cover"
           />
-          <p className="mt-2 text-center text-[#0c40b3] text-xs sm:text-xl">
-            {item.description}
+          <p className="mt-2 text-center text-[#FFFAFB] font-semibold text-xs sm:text-xl">
+            {item.description || `img_${index + 1}.35mm`}
           </p>
         </div>
       </div>
