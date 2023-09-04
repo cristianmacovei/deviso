@@ -58,7 +58,10 @@ export default function Content() {
   }, [isLeftOpen, isRightOpen]);
 
   return (
-    <div className="h-full text-sm grid md:flex md:text-xl flex bg-[#0C40B3]">
+    <div
+      className="h-full text-sm grid md:flex md:text-xl flex bg-[#0C40B3]"
+      id="portfolio"
+    >
       <div
         className={`p-4 w-full grid grid-col hover:scale-[1.01] transition ease-in hover:bg-[#062058] ${
           isLeftOpen ? "bg-tiffanyblue" : ""
@@ -119,9 +122,9 @@ export default function Content() {
         <div className="fixed top-0 left-0 w-screen h-screen flex bg-night items-center justify-center">
           <div className="relative">
             {/* Fullscreen lightbox content for the left half */}
-            <h1></h1>
+            <h1>This is my portfolio</h1>
             <button
-              className="fixed top-2 right-2 md:top-12 md:right-12 p-4 text-snow border border-solid border-snow rounded"
+              className="fixed top-16 right-2 md:top-16 md:right-24 p-4 text-snow border border-solid border-snow rounded"
               onClick={handleClose}
             >
               X

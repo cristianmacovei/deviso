@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 export default function About() {
   return (
-    <div className=" h-auto mt-14">
+    <div className=" h-auto mt-14" id="about">
       <div className="h-full grid md:grid-cols-6">
         <div className="md:col-span-3 col-span-6">
           <div className="flex flex-col justify-evenly align-center h-screen items-center">
@@ -12,7 +12,7 @@ export default function About() {
             <img
               src={require("./me.png")}
               width={300}
-              className="scale-50 sm:scale-100 border-0 hover:scale-[1.1] rounded-full  transition ease-in"
+              className="scale-75 sm:scale-100 border-0 hover:scale-[1.1] rounded-full  transition ease-in"
             />
           </div>
         </div>
@@ -73,7 +73,7 @@ export default function About() {
                   scrollTarget.scrollIntoView({ behavior: "smooth" });
                 }}
               >
-                Say hello!
+                say hello!
               </button>
             </div>
           </div>

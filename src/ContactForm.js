@@ -2,10 +2,7 @@ import React from "react";
 
 function ContactForm() {
   return (
-    <div
-      className="bg-white shadow-md p-6 md:max-w-full mx-auto"
-      id="contact-form"
-    >
+    <div className="bg-white shadow-md p-6 md:max-w-full mx-auto" id="contact">
       <h2 className="text-2xl font-semibold mb-4 text-center">say hello!</h2>
       <form className="">
         <div className="mb-4">
@@ -13,7 +10,7 @@ function ContactForm() {
             name <span className="text-red-700">*</span>
           </label>
           <input
-            placeholder="John"
+            placeholder="john"
             required
             type="text"
             className="w-full px-4 py-2 w-3/4 border rounded-md focus:ring focus:ring-indigo-300"
@@ -24,7 +21,7 @@ function ContactForm() {
             surname <span className="text-red-700">*</span>
           </label>
           <input
-            placeholder="Doe"
+            placeholder="doe"
             required
             type="text"
             className="w-full px-4 py-2 w-3/4  border rounded-md focus:ring focus:ring-indigo-300"
@@ -56,7 +53,7 @@ function ContactForm() {
           type="submit"
           className="bg-[#0c40b3] text-snow py-2 px-4 w-3/4 rounded-md hover:bg-[#062058] transition-colors w-full"
         >
-          Submit
+          submit
         </button>
       </form>
     </div>

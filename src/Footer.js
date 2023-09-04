@@ -1,36 +1,19 @@
 import React from "react";
 import { useState, useEffect } from "react";
 
-export default function Footer() {
-  const [showButton, setShowButton] = useState(false);
-
-  useEffect(() => {
-    // Show the button when scrolling down and hide when at the top
-    const handleScroll = () => {
-      if (window.scrollY > 1000) {
-        setShowButton(true);
-      } else {
-        setShowButton(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
+export default function Footer({ showButton }) {
   return (
     <>
       {/* Back to Top Button */}
       {showButton && (
         <button
-          onClick={scrollToTop}
-          className={`text-sm fixed right-24 bottom-20 md:text-xl drop-shadow-md rounded-full bg-night text-[#FFC745] hover:text-white transition-all duration-700 ${
-            showButton ? "opacity-100" : "opacity-0"
+          onClick={() => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          }}
+          className={`text-sm fixed md:right-24 right-8 bottom-20 md:text-xl drop-shadow-md rounded-full bg-[#0C40B3] text-[#FFC745] hover:text-white  ${
+            showButton
+              ? "opacity-100 transition-opacity duration-700 ease-in-out"
+              : "opacity-0"
           } `}
         >
           <p className="p-6">top</p>
@@ -67,16 +50,16 @@ export default function Footer() {
             <p className="flex text-center justify-evenly">nav</p>
             <nav className="flex justify-center space-x-4 py-4 justify-evenly">
               <a href="#" className="text-gray-300 hover:text-white">
-                Home
+                home
               </a>
               <a href="#" className="text-gray-300 hover:text-white">
-                About
+                about
               </a>
               <a href="#" className="text-gray-300 hover:text-white">
-                Portfolio
+                portfolio
               </a>
               <a href="#" className="text-gray-300 hover:text-white">
-                Contact
+                contact
               </a>
             </nav>
             <p className="text-center text-sm my-4">
