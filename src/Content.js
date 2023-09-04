@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useState, useEffect } from "react";
 import ZineComponent from "./Zine";
+import Portfolio from "./Portfolio";
 
 export default function Content() {
   const [isLeftOpen, setLeftOpen] = useState(false);
@@ -57,6 +58,11 @@ export default function Content() {
     }
   }, [isLeftOpen, isRightOpen]);
 
+  // FUNCTION FOR THE github PROJECTS PART
+  const username = "cristianmacovei";
+  const token =
+    "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";
+
   return (
     <div
       className="h-full text-sm grid md:flex md:text-xl flex bg-[#0C40B3]"
@@ -105,11 +111,11 @@ export default function Content() {
       </div>
 
       {isLeftOpen && (
-        <div className="bg-[#062058] transition ease-in fixed top-0 left-0 w-screen h-screen flex items-center justify-center">
+        <div className="bg-[#062058] fixed top-0 left-0 w-screen h-screen flex items-center justify-center">
           <div className="h-full relative mt-16 overflow-x-auto">
             <ZineComponent />
             <button
-              className="fixed top-2 right-4 md:top-12 md:right-12 p-4 text-snow border border-solid border-snow rounded"
+              className="fixed top-16 right-2 md:top-16 md:right-24 p-4 text-snow border border-solid border-snow rounded"
               onClick={handleClose}
             >
               X
@@ -119,10 +125,11 @@ export default function Content() {
       )}
 
       {isRightOpen && (
-        <div className="fixed top-0 left-0 w-screen h-screen flex bg-night items-center justify-center">
-          <div className="relative">
+        <div className="bg-[#062058] fixed top-0 left-0 w-screen h-screen flex items-center justify-center">
+          <div className="h-full relative mt-20 overflow-x-auto items-center flex content-center">
             {/* Fullscreen lightbox content for the left half */}
-            <h1>This is my portfolio</h1>
+            <Portfolio username={username} token={token} />
+
             <button
               className="fixed top-16 right-2 md:top-16 md:right-24 p-4 text-snow border border-solid border-snow rounded"
               onClick={handleClose}

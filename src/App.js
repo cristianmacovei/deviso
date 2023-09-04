@@ -6,6 +6,7 @@ import About from "./About";
 import Content from "./Content";
 import ContactForm from "./ContactForm";
 import Footer from "./Footer";
+import Portfolio from "./Portfolio";
 
 import { useState, useEffect } from "react";
 
@@ -32,6 +33,8 @@ export default function App() {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
+  //  RETURN HERE
   return (
     <>
       <div className="bg-white">
@@ -41,7 +44,7 @@ export default function App() {
         <Content />
 
         <ContactForm />
-        <Footer showButton={showButton} />
+        <Footer showButton={showButton} scrollToTarget={scrollToTarget} />
       </div>
     </>
   );

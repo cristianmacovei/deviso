@@ -104,13 +104,13 @@ function ZineComponent() {
 
     return zineItems.map((item, index) => (
       <div key={index} className="w-screen h-auto">
-        <div className="md:m-28 md:p-28 mt-32 w-screen sm:m-20">
+        <div className="w-2/3 sm:m-12">
           <img
             src={item.image}
             alt={`Image ${index + 1}`}
             className="object-cover"
           />
-          <p className="mt-2 text-center text-snow text-xs sm:text-xl">
+          <p className="mt-2 text-center text-[#0c40b3] text-xs sm:text-xl">
             {item.description}
           </p>
         </div>
@@ -120,7 +120,7 @@ function ZineComponent() {
 
   return (
     <div className="flex">
-      <div className="grid grid-rows-1 grid-flow-col gap-4 p-4 overflow-x-auto">
+      <div className="grid grid-rows-1 grid-flow-col gap-4 p-4 overflow-x-auto overflow-y-hidden">
         {generateZineItems()}
       </div>
     </div>
