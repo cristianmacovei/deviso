@@ -29,7 +29,7 @@ export default function Footer() {
       {showButton && (
         <button
           onClick={scrollToTop}
-          className={`text-sm fixed right-24 bottom-20 md:text-xl rounded-full bg-[#0c40b3] text-[#FFC745] hover:text-white transition-all duration-700 ${
+          className={`text-sm fixed right-24 bottom-20 md:text-xl drop-shadow-md rounded-full bg-night text-[#FFC745] hover:text-white transition-all duration-700 ${
             showButton ? "opacity-100" : "opacity-0"
           } `}
         >

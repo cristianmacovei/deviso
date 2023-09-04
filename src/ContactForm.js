@@ -7,7 +7,7 @@ function ContactForm() {
       id="contact-form"
     >
       <h2 className="text-2xl font-semibold mb-4 text-center">say hello!</h2>
-      <form>
+      <form className="">
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-medium mb-1">
             name <span className="text-red-700">*</span>
