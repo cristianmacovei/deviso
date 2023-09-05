@@ -112,7 +112,7 @@ export default function Content() {
 
       {isLeftOpen && (
         <div className="bg-[#062058] fixed top-0 left-0 w-screen h-screen flex items-center justify-center">
-          <div className="h-full relative mt-16 overflow-x-auto">
+          <div className="h-full relative mt-16 overflow-x-auto flex flex-wrap content-center">
             <ZineComponent />
             <button
               className="fixed top-16 right-2 md:top-16 md:right-24 p-4 text-snow border border-solid border-snow rounded"

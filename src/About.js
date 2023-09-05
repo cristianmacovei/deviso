@@ -69,7 +69,7 @@ export default function About() {
               <button
                 className="align-center rounded-full w-48 bg-snow text-[#0C40B3] drop-shadow-lg hover:drop-shadow-2xl hover:scale-[1.1] transition ease-in font-medium h-16 text-lg italic"
                 onClick={() => {
-                  const scrollTarget = document.getElementById("contact-form");
+                  const scrollTarget = document.getElementById("contact");
                   scrollTarget.scrollIntoView({ behavior: "smooth" });
                 }}
               >
