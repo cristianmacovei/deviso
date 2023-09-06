@@ -40,7 +40,7 @@ export default function Content() {
   // Add event listener when component mounts
   useEffect(() => {
     if (isLeftOpen || isRightOpen) {
-      console.log(process.env.REACT_APP_GITHUB_API_TOKEN);
+      //console.log(process.env.REACT_APP_GITHUB_API_TOKEN);
       disableBodyScroll();
     } else {
       enableBodyScroll();
@@ -49,7 +49,10 @@ export default function Content() {
 
   // FUNCTION FOR THE github PROJECTS PART
   const username = "cristianmacovei";
-  const token = process.env.REACT_APP_GITHUB_API_TOKEN;
+  // const token = process.env.REACT_APP_GITHUB_API_TOKEN;
+
+  // THIS WORKS ON LOCAL. NOT WORKING ON DEPLOYED VERSION
+  const token = "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";
 
   return (
     <div
