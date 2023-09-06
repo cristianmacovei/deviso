@@ -2,7 +2,7 @@
   "name": "deviso-tw",
   "version": "0.1.0",
   "homepage": "https://cristianmacovei.github.io/deviso",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@craco/craco": "^7.1.0",
     "@testing-library/jest-dom": "^5.17.0",
