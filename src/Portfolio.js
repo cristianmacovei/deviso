@@ -5,7 +5,7 @@ export default function Portfolio({ username, token }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const apiUrl = `https://api.github.com/users/${username}/repos`;
+    const apiUrl = `https://api.github.com/users/cristianmacovei/repos`;
 
     fetch(apiUrl, {
       headers: {
