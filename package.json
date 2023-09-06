@@ -1,7 +1,7 @@
 {
   "name": "deviso-tw",
   "version": "0.1.0",
-  "homepage": "https://cristianmacovei.github.io/deviso",
+  "homepage": "https://cristianmacovei.github.io/cristianmacovei/deviso",
   "private": false,
   "dependencies": {
     "@craco/craco": "^7.1.0",
