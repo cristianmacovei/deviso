@@ -12,7 +12,7 @@ export default function Menu({ scrollToTarget }) {
             e.preventDefault();
             scrollToTarget("#about");
           }}
-          className="text-[#0C40B3] px-4 text-center rotate-90 hover:rotate-[75deg] hover:scale-[1.1] hover:duration-20 transition ease-in-out"
+          className="text-persianblue px-4 text-center rotate-90 hover:rotate-[75deg] hover:scale-[1.1] hover:duration-20 transition ease-in-out"
         >
           about
         </a>
@@ -24,7 +24,7 @@ export default function Menu({ scrollToTarget }) {
             e.preventDefault();
             scrollToTarget("#portfolio");
           }}
-          className="text-[#0C40B3] px-4 text-center rotate-90 hover:rotate-[105deg] hover:scale-[1.1] hover:duration-20 transition ease-in-out"
+          className="text-persianblue px-4 text-center rotate-90 hover:rotate-[105deg] hover:scale-[1.1] hover:duration-20 transition ease-in-out"
         >
           portfolio
         </a>
@@ -36,7 +36,7 @@ export default function Menu({ scrollToTarget }) {
             e.preventDefault();
             scrollToTarget("#blog");
           }}
-          className="text-[#0C40B3] px-4 text-center rotate-90 hover:rotate-[75deg] hover:scale-[1.1] hover:duration-20 transition ease-in-out"
+          className="text-persianblue px-4 text-center rotate-90 hover:rotate-[75deg] hover:scale-[1.1] hover:duration-20 transition ease-in-out"
         >
           blog
         </a>
@@ -48,7 +48,7 @@ export default function Menu({ scrollToTarget }) {
             e.preventDefault();
             scrollToTarget("#contact");
           }}
-          className="text-[#0C40B3] px-4 text-center rotate-90 hover:rotate-[105deg] hover:scale-[1.1] hover:duration-20 transition ease-in-out"
+          className="text-persianblue px-4 text-center rotate-90 hover:rotate-[105deg] hover:scale-[1.1] hover:duration-20 transition ease-in-out"
         >
           contact
         </a>

@@ -36,7 +36,7 @@ export default function Portfolio({ username, token }) {
               target="_blank"
               rel="noopener noreferrer"
               key={repo.id}
-              className="w-60 md:w-96 h-60 md:h-96 rounded-xl drop-shadow-md bg-[#0c40b3] overflow-scroll text-center flex flex-col place-content-center p-4"
+              className="w-60 md:w-96 h-60 md:h-96 rounded-xl drop-shadow-md bg-persianblue overflow-scroll text-center flex flex-col place-content-center p-4"
             >
               <div className="text-xl text-snow whitespace-normal">
                 {repo.name}

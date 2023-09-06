@@ -21,18 +21,20 @@ export default function About() {
             <div className="text-sm lg:text-md xl:text-lg grid grid-row-2 flex text-justify justify-items-center text-center">
               <p className="text-transparent bg-clip-text bg-night">
                 my name is{" "}
-                <span className="font-semibold text-[#0C40B3]">cristian, </span>
+                <span className="font-semibold text-persianblue">
+                  cristian,{" "}
+                </span>
                 web developer and{" "}
-                <span className="font-semibold text-[#0C40B3]">
+                <span className="font-semibold text-persianblue">
                   analogue photography{" "}
                 </span>
                 enthusiast. while the two seem very different and far apart from
                 each other, I find there is a certain{" "}
-                <span className="font-semibold text-[#0C40B3]">
+                <span className="font-semibold text-persianblue">
                   tangent point{" "}
                 </span>
                 between the two: taking a step back and thinking through every{" "}
-                <span className="font-semibold text-[#0C40B3]">detail </span>
+                <span className="font-semibold text-persianblue">detail </span>
                 of the composition.
               </p>
               <br></br>
@@ -41,16 +43,16 @@ export default function About() {
               <p className="text-transparent bg-clip-text bg-night">
                 it's true that digital photography is fast and you get virtually
                 infinite retakes, but the cost of a duplicate in{" "}
-                <span className="font-semibold text-[#0C40B3]">
+                <span className="font-semibold text-persianblue">
                   analogue photography{" "}
                 </span>{" "}
                 is high, so every capture must be very well thought, analysed
                 and composed. i found the{" "}
-                <span className="font-semibold text-[#0C40B3]">
+                <span className="font-semibold text-persianblue">
                   same approach{" "}
                 </span>{" "}
                 is best for{" "}
-                <span className="font-semibold text-[#0C40B3]">
+                <span className="font-semibold text-persianblue">
                   web development,{" "}
                 </span>{" "}
                 as mistakes can easily cost a lot of time and effort.
@@ -58,7 +60,7 @@ export default function About() {
                 <br></br>
                 <br></br>
                 talking is for free, so{" "}
-                <span className="font-semibold text-[#0C40B3]">
+                <span className="font-semibold text-persianblue">
                   hit me up{" "}
                 </span>{" "}
                 and tell me about your project!
@@ -67,7 +69,7 @@ export default function About() {
               <br></br>
               <br></br>
               <button
-                className="align-center rounded-full w-48 bg-snow text-[#0C40B3] drop-shadow-lg hover:drop-shadow-2xl hover:scale-[1.1] transition ease-in font-medium h-16 text-lg italic"
+                className="align-center rounded-full w-48 bg-snow text-persianblue drop-shadow-lg hover:drop-shadow-2xl hover:scale-[1.1] transition ease-in font-medium h-16 text-lg italic"
                 onClick={() => {
                   const scrollTarget = document.getElementById("contact");
                   scrollTarget.scrollIntoView({ behavior: "smooth" });

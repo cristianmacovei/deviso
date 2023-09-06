@@ -1,9 +1,11 @@
 import React from "react";
 
-function ContactForm() {
+export default function ContactForm() {
   return (
     <div className="bg-white shadow-md p-6 md:max-w-full mx-auto" id="contact">
-      <h2 className="text-2xl font-semibold mb-4 text-center">say hello!</h2>
+      <h2 className="mb-4 text-persianblue text-center sm:text-3xl text-md font-semibold">
+        say hello!
+      </h2>
       <form className="mr-20">
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-medium mb-1">
@@ -51,13 +53,13 @@ function ContactForm() {
         </div>
         <button
           type="submit"
-          className="bg-[#0c40b3] text-snow py-2 px-4 rounded-md hover:bg-[#062058] transition-colors w-full"
+          className="bg-persianblue py-2 px-4 rounded-md hover:bg-pennblue transition-colors w-full"
         >
-          submit
+          <div className="text-center text-snow hover:text-sunglow transition-all ease-in-out duration-500 mx-auto">
+            submit
+          </div>
         </button>
       </form>
     </div>
   );
 }
-
-export default ContactForm;

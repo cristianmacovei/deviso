@@ -7,12 +7,15 @@ module.exports = {
         transparent: "transparent",
         current: "currentColor",
         night: "#131515",
-        jet: "#2b2c28",
-        persiangreen: "#339989",
-        tiffanyblue: "#7de2d1",
+        pennblue: "#062058",
+        persianblue: "#0C40B3",
+        sunglow: "#FFC745",
         snow: "#fffafb",
       },
     },
   },
-  plugins: [require("tailwind-scrollbar-hide")],
+  plugins: [
+    require("tailwind-scrollbar-hide"),
+    // ...
+  ],
 };

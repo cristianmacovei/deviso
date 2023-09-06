@@ -11,7 +11,7 @@ export default function Footer({ showButton, scrollToTarget }) {
           onClick={() => {
             window.scrollTo({ top: 0, behavior: "smooth" });
           }}
-          className={`text-sm fixed md:right-24 right-8 bottom-20 md:text-xl drop-shadow-md rounded-full bg-snow text-[#0C40B3] transition-all ease-in-out duration-200 hover:text-[#FFC745]  ${
+          className={`text-sm fixed md:right-24 right-8 bottom-20 md:text-xl drop-shadow-md rounded-full bg-snow text-persianblue transition-all ease-in-out duration-200 hover:text-sunglow  ${
             showButton
               ? "opacity-100 transition-opacity duration-700 ease-in-out"
               : "opacity-0"
@@ -20,7 +20,7 @@ export default function Footer({ showButton, scrollToTarget }) {
           <p className="px-4 py-5">TOP</p>
         </button>
       )}
-      <footer className="bg-[#062058]">
+      <footer className="bg-pennblue">
         <div className="container py-8 px-4 grid grid-rows-4 md:grid-rows-2 place-items-center md:p-8 md:grid-cols-2 md:gap-2 gap-2">
           {/* Contact Information */}
           <div className="text-sm text-center">
@@ -35,7 +35,7 @@ export default function Footer({ showButton, scrollToTarget }) {
                 )}`;
                 window.location.href = mailToLink;
               }}
-              className="hover:cursor-pointer text-snow transition-all ease-in-out duration-200 hover:text-[#FFC745]"
+              className="hover:cursor-pointer text-snow transition-all ease-in-out duration-200 hover:text-sunglow"
             >
               deviso.cars@gmail.com
             </div>
@@ -51,7 +51,7 @@ export default function Footer({ showButton, scrollToTarget }) {
                 href="https://www.github.com/cristianmacovei"
                 target="_blank"
                 rel="noreferrer noopener nofollower"
-                className="text-snow transition-all ease-in-out duration-200 hover:text-[#FFC745]"
+                className="text-snow transition-all ease-in-out duration-200 hover:text-sunglow"
               >
                 <svg
                   width="26px"
@@ -77,7 +77,7 @@ export default function Footer({ showButton, scrollToTarget }) {
                 href="https://www.linkedin.com/in/cristiaanmacovei/"
                 target="_blank"
                 rel="noreferrer noopener nofollower"
-                className="text-snow transition-all ease-in-out duration-200 hover:text-[#FFC745]"
+                className="text-snow transition-all ease-in-out duration-200 hover:text-sunglow"
               >
                 <svg
                   width="26px"
@@ -110,7 +110,7 @@ export default function Footer({ showButton, scrollToTarget }) {
                 href="https://www.instagram.com/deviso.cars"
                 target="_blank"
                 rel="noreferrer noopener nofollower"
-                className="text-snow transition-all ease-in-out duration-200 hover:text-[#FFC745]"
+                className="text-snow transition-all ease-in-out duration-200 hover:text-sunglow"
               >
                 <svg
                   width="26px"
@@ -152,7 +152,7 @@ export default function Footer({ showButton, scrollToTarget }) {
                   e.preventDefault();
                   scrollToTarget("#about");
                 }}
-                className="text-snow transition-all ease-in-out duration-200 hover:text-[#FFC745]"
+                className="text-snow transition-all ease-in-out duration-200 hover:text-sunglow"
               >
                 about
               </a>
@@ -162,7 +162,7 @@ export default function Footer({ showButton, scrollToTarget }) {
                   e.preventDefault();
                   scrollToTarget("#portfolio");
                 }}
-                className="text-snow transition-all ease-in-out duration-200 hover:text-[#FFC745]"
+                className="text-snow transition-all ease-in-out duration-200 hover:text-sunglow"
               >
                 portfolio
               </a>
@@ -172,7 +172,7 @@ export default function Footer({ showButton, scrollToTarget }) {
                   e.preventDefault();
                   scrollToTarget("#blog");
                 }}
-                className="text-snow transition-all ease-in-out duration-200 hover:text-[#FFC745]"
+                className="text-snow transition-all ease-in-out duration-200 hover:text-sunglow"
               >
                 blog
               </a>
@@ -183,7 +183,7 @@ export default function Footer({ showButton, scrollToTarget }) {
                   e.preventDefault();
                   scrollToTarget("#contact");
                 }}
-                className="text-snow transition-all ease-in-out duration-200 hover:text-[#FFC745]"
+                className="text-snow transition-all ease-in-out duration-200 hover:text-sunglow"
               >
                 contact
               </a>

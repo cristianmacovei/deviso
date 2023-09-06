@@ -2,12 +2,11 @@ import "./App.css";
 import Bar from "./Bar";
 import Menu from "./Menu";
 import About from "./About";
-
-import Content from "./Content";
-import ContactForm from "./ContactForm";
 import Footer from "./Footer";
+import Content from "./Content";
 import Portfolio from "./Portfolio";
-
+import ContactForm from "./ContactForm";
+import BlogSection from "./BlogSection";
 import { useState, useEffect } from "react";
 
 export default function App() {
@@ -42,7 +41,7 @@ export default function App() {
         <Bar />
         <About />
         <Content />
-
+        <BlogSection />
         <ContactForm />
         <Footer showButton={showButton} scrollToTarget={scrollToTarget} />
       </div>
