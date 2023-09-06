@@ -5,7 +5,7 @@ export default function Portfolio({ username, token }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const apiUrl = `https://api.github.com/users/cristianmacovei/repos`;
+    const apiUrl = `https://api.github.com/users/${username}/repos`;
 
     fetch(apiUrl, {
       headers: {
@@ -32,7 +32,7 @@ export default function Portfolio({ username, token }) {
         >
           {projects.map((repo) => (
             <a
-              href={`https://www.github.com/${username}/${repo.name}`}
+              href={`https://www.github.com/users/${username}/${repo.name}`}
               target="_blank"
               rel="noopener noreferrer"
               key={repo.id}
