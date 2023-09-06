@@ -40,6 +40,7 @@ export default function Content() {
   // Add event listener when component mounts
   useEffect(() => {
     if (isLeftOpen || isRightOpen) {
+      console.log(process.env.REACT_APP_GITHUB_API_TOKEN);
       disableBodyScroll();
     } else {
       enableBodyScroll();
