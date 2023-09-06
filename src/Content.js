@@ -48,7 +48,8 @@ export default function Content() {
 
   // FUNCTION FOR THE github PROJECTS PART
   const username = "cristianmacovei";
-  const token = "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";
+  const token =
+    "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";
 
   return (
     <div
