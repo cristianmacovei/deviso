@@ -46,7 +46,7 @@ export default function Footer({ showButton, scrollToTarget }) {
             <h3 className="text-xs md:text-xl font-semibold text-snow my-4 text-center">
               socials
             </h3>
-            <div className="flex justify-evenly text-center md:space-x-4 py-2">
+            <div className="flex justify-evenly text-center space-x-4 py-2">
               <a
                 href="https://www.github.com/cristianmacovei"
                 target="_blank"

@@ -6,7 +6,7 @@ export default function ContactForm() {
       <h2 className="mb-4 text-persianblue text-center sm:text-3xl text-md font-semibold">
         say hello!
       </h2>
-      <form className="mr-20">
+      <form className="md:mr-20">
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-medium mb-1">
             name <span className="text-red-700">*</span>
