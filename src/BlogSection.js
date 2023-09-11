@@ -94,7 +94,7 @@ export default function BlogSection() {
       <div className="text-center text-persianblue sm:text-3xl text-md font-semibold">
         some stories I've told
       </div>
-      <div className="container h-96 pr-24 mx-4 grid grid-rows-1 grid-flow-col gap-4 p-4 overflow-x-auto space-y-96">
+      <div className="container h-96 mr-20 mx-4 grid grid-rows-1 grid-flow-col gap-4 p-4 overflow-x-auto space-y-96">
         <div className="flex flex-row space-x-4">
           {/* Replace with your individual blog post components */}
           {dummyData.map((post) => (

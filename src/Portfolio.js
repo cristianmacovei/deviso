@@ -32,7 +32,7 @@ export default function Portfolio({ username, token }) {
         >
           {projects.map((repo) => (
             <a
-              href={`https://www.github.com/users/${username}/${repo.name}`}
+              href={`https://www.github.com/${username}/${repo.name}`}
               target="_blank"
               rel="noopener noreferrer"
               key={repo.id}
