@@ -11,8 +11,6 @@ export default function Content() {
     setLeftOpen(!isLeftOpen);
     if (isRightOpen) {
       setRightOpen(false);
-      console.log(process.env.REACT_APP_GITHUB_API_TOKEN);
-      console.log("blablabla");
     }
   }
 
@@ -41,6 +39,7 @@ export default function Content() {
 
   // Add event listener when component mounts
   useEffect(() => {
+    console.log(process.env.REACT_APP_GITHUB_API_TOKEN);
     if (isLeftOpen || isRightOpen) {
       disableBodyScroll();
     } else {
