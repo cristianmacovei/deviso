@@ -5,11 +5,11 @@ function ZineComponent() {
   function generateZineItems() {
     const zineItems = [
       {
-        image: "./ZineItems/IMG_0449.jpg",
+        image: "ZineItems/IMG_0449.jpg",
         description: "",
       },
       {
-        image: "./ZineItems/IMG_0451.jpg",
+        image: "ZineItems/IMG_0451.jpg",
         description: "",
       },
       {
