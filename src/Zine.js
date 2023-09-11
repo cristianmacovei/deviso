@@ -5,99 +5,99 @@ function ZineComponent() {
   function generateZineItems() {
     const zineItems = [
       {
-        image: "../ZineItems/IMG_0449.jpg",
+        image: "./ZineItems/IMG_0449.jpg",
         description: "",
       },
       {
-        image: "../ZineItems/IMG_0451.jpg",
+        image: "./ZineItems/IMG_0451.jpg",
         description: "",
       },
       {
-        image: "../ZineItems/IMG_0452.jpg",
+        image: "./ZineItems/IMG_0452.jpg",
         description: "",
       },
       {
-        image: "../ZineItems/IMG_0456.jpg",
+        image: "./ZineItems/IMG_0456.jpg",
         description: "",
       },
       {
-        image: "../ZineItems/IMG_0457.jpg",
+        image: "./ZineItems/IMG_0457.jpg",
         description: "",
       },
       {
-        image: "../ZineItems/IMG_0460.jpg",
+        image: "./ZineItems/IMG_0460.jpg",
         description: "",
       },
       {
-        image: "../ZineItems/IMG_0463.jpg",
+        image: "./ZineItems/IMG_0463.jpg",
         description: "",
       },
       {
-        image: "../ZineItems/IMG_0465.jpg",
+        image: "./ZineItems/IMG_0465.jpg",
         description: "",
       },
       {
-        image: "../ZineItems/IMG_0466.jpg",
+        image: "./ZineItems/IMG_0466.jpg",
         description: "",
       },
       {
-        image: "../ZineItems/IMG_0467.jpg",
+        image: "./ZineItems/IMG_0467.jpg",
         description: "",
       },
       {
-        image: "../ZineItems/IMG_0468.jpg",
+        image: "./ZineItems/IMG_0468.jpg",
         description: "",
       },
       {
-        image: "../ZineItems/IMG_0469.jpg",
+        image: "./ZineItems/IMG_0469.jpg",
         description: "",
       },
       {
-        image: "../ZineItems/IMG_0470.jpg",
+        image: "./ZineItems/IMG_0470.jpg",
         description: "",
       },
       {
-        image: "../ZineItems/IMG_0471.jpg",
+        image: "./ZineItems/IMG_0471.jpg",
         description: "",
       },
       {
-        image: "../ZineItems/IMG_0472.jpg",
+        image: "./ZineItems/IMG_0472.jpg",
         description: "",
       },
       {
-        image: "../ZineItems/IMG_0474.jpg",
+        image: "./ZineItems/IMG_0474.jpg",
         description: "",
       },
       {
-        image: "../ZineItems/IMG_0477.jpg",
+        image: "./ZineItems/IMG_0477.jpg",
         description: "",
       },
       {
-        image: "../ZineItems/IMG_0478.jpg",
+        image: "./ZineItems/IMG_0478.jpg",
         description: "",
       },
       {
-        image: "../ZineItems/IMG_0479.jpg",
+        image: "./ZineItems/IMG_0479.jpg",
         description: "",
       },
       {
-        image: "../ZineItems/IMG_0480.jpg",
+        image: "./ZineItems/IMG_0480.jpg",
         description: "",
       },
       {
-        image: "../ZineItems/IMG_0481.jpg",
+        image: "./ZineItems/IMG_0481.jpg",
         description: "",
       },
       {
-        image: "../ZineItems/IMG_0482.jpg",
+        image: "./ZineItems/IMG_0482.jpg",
         description: "",
       },
       {
-        image: "../ZineItems/IMG_0483.jpg",
+        image: "./ZineItems/IMG_0483.jpg",
         description: "",
       },
       {
-        image: "../ZineItems/IMG_0484.jpg",
+        image: "./ZineItems/IMG_0484.jpg",
         description: "",
       },
     ];
